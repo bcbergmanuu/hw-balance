@@ -1,1 +1,6 @@
 /straingauge-backups
+*.lck
+*auto_saved_files*
+_autosave-straingauge.kicad_pcb
+straingauge.kicad_sch-bak
+
