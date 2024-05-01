@@ -14,4 +14,6 @@
   (lib (name "2-4576chmos")(type "KiCad")(uri "${KIPRJMOD}/libs/ul_SIT8008BC-83-33E-10-000000/KiCADv6/2024-04-29_21-25-20.kicad_sym")(options "")(descr ""))
   (lib (name "opto8bit")(type "KiCad")(uri "${KIPRJMOD}/libs/SI8380PM_IU/KiCADv6/2024-04-29_22-18-09.kicad_sym")(options "")(descr ""))
   (lib (name "RPi_Pico")(type "Legacy")(uri "${KIPRJMOD}/libs/rp2040/RPi_Pico.lib")(options "")(descr ""))
+  (lib (name "bat54")(type "KiCad")(uri "${KIPRJMOD}/libs/ul_BAT54TW-7-F/KiCADv6/2024-05-01_11-29-06.kicad_sym")(options "")(descr ""))
+  (lib (name "customPower")(type "KiCad")(uri "${KIPRJMOD}/libs/customPower.kicad_sym")(options "")(descr ""))
 )

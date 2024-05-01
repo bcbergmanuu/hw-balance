@@ -1,0 +1,340 @@
+(footprint "SOT-363_DIO"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "BAT54TW-7-F ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "96f32376-9eac-46ef-a57e-91f628aab4de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-363_DIO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34eb4184-7dc7-4768-bc8e-fca0d8ececdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOT-363_DIO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce3af303-5cea-4a89-8e25-b8a73fdb0ad6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e17a23f-0426-4767-bc1e-0297704acf73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30d9e0ad-3445-450e-9b65-32c65d0dadc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.802 1.227)
+		(end 0.802 1.227)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0388b509-4afe-4a7a-a179-701dfccef511")
+	)
+	(fp_line
+		(start 0.802 -1.227)
+		(end -0.802 -1.227)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00a370d2-77f4-46e5-800b-e644046522ef")
+	)
+	(fp_circle
+		(center -1.829 -0.65)
+		(end -1.7528 -0.65)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7bd22757-1fbc-4424-8751-35dabc7fbfa6")
+	)
+	(fp_line
+		(start -1.504 -1.114)
+		(end -0.929 -1.114)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22c45cac-626c-47da-a0df-1f564dc8c79a")
+	)
+	(fp_line
+		(start -1.504 1.114)
+		(end -1.504 -1.114)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48600fe2-6338-452a-89a9-3b6bbf7fb39c")
+	)
+	(fp_line
+		(start -1.504 1.114)
+		(end -0.929 1.114)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc6235e6-478f-4a7f-811a-6e20177f1481")
+	)
+	(fp_line
+		(start -0.929 -1.354)
+		(end 0.929 -1.354)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b53b6d46-6be0-490f-b109-619b0f393d48")
+	)
+	(fp_line
+		(start -0.929 -1.114)
+		(end -0.929 -1.354)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c87259b-9f69-4639-890d-028ba4a7f30d")
+	)
+	(fp_line
+		(start -0.929 1.354)
+		(end -0.929 1.114)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d4ce77c-9a4a-47d0-8bbe-b8853a258f4e")
+	)
+	(fp_line
+		(start 0.929 -1.354)
+		(end 0.929 -1.114)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "456f25f6-fdf0-4d93-bd09-b0ced710a467")
+	)
+	(fp_line
+		(start 0.929 1.114)
+		(end 0.929 1.354)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64337132-f207-4fe8-a917-43a3abc42388")
+	)
+	(fp_line
+		(start 0.929 1.354)
+		(end -0.929 1.354)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9c5fd67-42d5-4200-a437-10a9b7f7940f")
+	)
+	(fp_line
+		(start 1.504 -1.114)
+		(end 0.929 -1.114)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70143234-d4cc-41ac-8f59-dc133b307de1")
+	)
+	(fp_line
+		(start 1.504 -1.114)
+		(end 1.504 1.114)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80b38287-db26-437c-8c3c-00c9fb59c376")
+	)
+	(fp_line
+		(start 1.504 1.114)
+		(end 0.929 1.114)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65cabe08-4991-4b78-bed4-64236b95fc54")
+	)
+	(fp_line
+		(start -0.675 -1.1)
+		(end -0.675 1.1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1cde5b39-2bc9-4d9a-9913-1e4b69efeb2d")
+	)
+	(fp_line
+		(start -0.675 1.1)
+		(end 0.675 1.1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e590934-45bb-4393-a691-ac66260e6052")
+	)
+	(fp_line
+		(start 0.675 -1.1)
+		(end -0.675 -1.1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44f56f73-8712-46b4-8376-a59943e7fa8f")
+	)
+	(fp_line
+		(start 0.675 1.1)
+		(end 0.675 -1.1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5828561e-599e-459a-b762-c9703565f314")
+	)
+	(fp_arc
+		(start 0.3048 -1.1)
+		(mid 0 -0.7952)
+		(end -0.3048 -1.1)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04eb33a3-3d04-4313-8c74-104690ca59f6")
+	)
+	(fp_circle
+		(center -0.421 -0.65)
+		(end -0.3829 -0.65)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9b58157a-2b32-4635-83ee-f3033eeac005")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f2d4485-2a44-40c6-b5bc-94f7ddfd1dfa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.950001 -0.649999)
+		(size 0.6 0.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "134e888d-1bad-4748-8d8e-26c65afdbe45")
+	)
+	(pad "2" smd oval
+		(at -0.950001 0)
+		(size 0.6 0.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a80a8e3f-d16d-4e75-be42-c6a444773f6f")
+	)
+	(pad "3" smd oval
+		(at -0.950001 0.649999)
+		(size 0.6 0.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d1194277-04aa-41d3-9539-90aae3ade95b")
+	)
+	(pad "4" smd oval
+		(at 0.950001 0.649999)
+		(size 0.6 0.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "96d395d3-cf49-40e5-86ed-9a339900ad94")
+	)
+	(pad "5" smd oval
+		(at 0.950001 0)
+		(size 0.6 0.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eb7010f0-c899-4139-820e-d9844591c128")
+	)
+	(pad "6" smd oval
+		(at 0.950001 -0.649999)
+		(size 0.6 0.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c057e84b-477f-4280-ac91-3b001c2612b3")
+	)
+	(model "${KIPRJMOD}/libs/ul_BAT54TW-7-F/SOT-363_DIO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

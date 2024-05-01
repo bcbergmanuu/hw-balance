@@ -12,4 +12,5 @@
   (lib (name "xgl4020")(type "KiCad")(uri "${KIPRJMOD}/libs/ul_XGL4020-152MEC/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "LT83333")(type "KiCad")(uri "${KIPRJMOD}/libs/ul_LT8333RDD-PBF/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/libs/rp2040/RPi_Pico.pretty")(options "")(descr ""))
+  (lib (name "bat54tw")(type "KiCad")(uri "${KIPRJMOD}/libs/ul_BAT54TW-7-F/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
