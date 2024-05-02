@@ -235,16 +235,14 @@
   },
   "erc": {
     "erc_exclusions": [
-      "lib_symbol_issues|1270000|279400|1f3dcf6e-99fc-4f13-a7c4-35d8f64dd1dc|00000000-0000-0000-0000-000000000000|||",
       "lib_symbol_issues|1905000|1397000|b5f34783-1803-4b24-bb24-f30454a4713e|00000000-0000-0000-0000-000000000000|||",
-      "lib_symbol_issues|1930400|762000|3fe2c76e-d9f1-46a8-8b7b-eedd9d5f615e|00000000-0000-0000-0000-000000000000|||",
       "lib_symbol_issues|1943100|279400|8802a662-057d-49e4-a5f4-02e5a76fc19d|00000000-0000-0000-0000-000000000000|||",
       "lib_symbol_issues|1993900|1981200|c0ab3631-1c32-4f5e-ae1b-ccf9d49facf9|00000000-0000-0000-0000-000000000000|||",
       "lib_symbol_issues|2717800|469900|19e5ae5e-6f7f-4e9c-a77d-5e1d53b6e3ca|00000000-0000-0000-0000-000000000000|||",
       "lib_symbol_issues|317500|2400300|63e675e1-c7e7-4270-8fce-580043083046|00000000-0000-0000-0000-000000000000|||",
       "lib_symbol_issues|317500|254000|4cc12b11-66bc-4842-b686-aa23bb4c569c|00000000-0000-0000-0000-000000000000|||",
       "lib_symbol_issues|3302000|1371600|038de22d-b374-42ec-ac50-85bcf7db0a78|00000000-0000-0000-0000-000000000000|||",
-      "lib_symbol_issues|355600|1676400|fc9e2d84-43f4-47e0-8adb-428cdde3fef5|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|355600|1587500|fc9e2d84-43f4-47e0-8adb-428cdde3fef5|00000000-0000-0000-0000-000000000000|||",
       "lib_symbol_issues|355600|863600|9fc7a3a0-9607-491b-8009-0fd39eedf1fa|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
@@ -489,7 +487,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "7.526v-beaded"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "in7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "inmin3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "in33"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
