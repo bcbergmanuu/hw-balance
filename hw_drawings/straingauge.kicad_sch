@@ -9140,6 +9140,12 @@
 		(uuid "879a3c50-20b8-406f-8afc-579cac0d0e01")
 	)
 	(junction
+		(at 170.18 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "886bce97-61d4-4ebd-9b80-7e2cf65e0049")
+	)
+	(junction
 		(at 248.92 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9156,6 +9162,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b129f94-80dd-4221-921e-3d0b974cec1e")
+	)
+	(junction
+		(at 177.8 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b8a0f20-2484-4f0f-91ba-95b35e6bf001")
 	)
 	(junction
 		(at 297.18 60.96)
@@ -9360,6 +9372,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d75c4e8b-4b7f-48a2-bbd2-0a040dd6b761")
+	)
+	(junction
+		(at 104.14 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9170a1a-d867-4747-b0d8-14739fb005b3")
 	)
 	(junction
 		(at 124.46 167.64)
@@ -9870,6 +9888,16 @@
 			(type default)
 		)
 		(uuid "10f4a611-3e8c-4748-bba4-9fc8b04c460f")
+	)
+	(wire
+		(pts
+			(xy 170.18 73.66) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1129d8ba-e87c-4b54-86fd-52166fe43705")
 	)
 	(wire
 		(pts
@@ -11253,7 +11281,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 25.4) (xy 111.76 25.4)
+			(xy 91.44 25.4) (xy 104.14 25.4)
 		)
 		(stroke
 			(width 0)
@@ -12073,6 +12101,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 140.97) (xy 172.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dee9ab2-f07e-4b19-a307-5272f404197b")
+	)
+	(wire
+		(pts
 			(xy 129.54 140.97) (xy 129.54 156.21)
 		)
 		(stroke
@@ -12310,6 +12348,16 @@
 			(type default)
 		)
 		(uuid "9b662fce-5d0b-40f3-9268-357c5b55fd2c")
+	)
+	(wire
+		(pts
+			(xy 170.18 73.66) (xy 172.72 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9bce58-8d3f-41da-b4ec-d4fa5a439aa1")
 	)
 	(wire
 		(pts
@@ -12703,6 +12751,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 25.4) (xy 111.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53971e8-220c-437a-abe8-c0ae427336c1")
+	)
+	(wire
+		(pts
 			(xy 349.25 148.59) (xy 353.06 148.59)
 		)
 		(stroke
@@ -12813,6 +12871,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 25.4) (xy 104.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb7ca2b-6175-445e-9546-478345e4b05e")
+	)
+	(wire
+		(pts
 			(xy 153.67 25.4) (xy 149.86 25.4)
 		)
 		(stroke
@@ -12830,6 +12898,16 @@
 			(type default)
 		)
 		(uuid "bf72d685-23ce-4e60-9726-5bd2679fe130")
+	)
+	(wire
+		(pts
+			(xy 177.8 140.97) (xy 177.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb11e66-d9c7-417f-be7f-271a62f6ec0f")
 	)
 	(wire
 		(pts
@@ -13493,7 +13571,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 140.97) (xy 172.72 140.97)
+			(xy 180.34 140.97) (xy 177.8 140.97)
 		)
 		(stroke
 			(width 0)
@@ -13513,7 +13591,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 73.66) (xy 172.72 73.66)
+			(xy 167.64 73.66) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15140,6 +15218,72 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0495761c-8bf8-4061-825f-99b1b476cd4d")
+		(property "Reference" "#PWR0139"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6712c1b-ee98-4d64-9a72-90fe1dcd7036")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -19577,6 +19721,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 177.8 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d1aeaf9-5cbb-4b64-afef-9d8fcf344f01")
+		(property "Reference" "#PWR035"
+			(at 177.8 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8cc70c5-41fa-4af6-b138-8b0a722818fd")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 375.92 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20598,6 +20808,72 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4848f4c4-7ba6-40e8-913a-02a373f1c012")
+		(property "Reference" "#PWR073"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8cc70c5-41fa-4af6-b138-8b0a722818fd")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -25393,7 +25669,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9c538ba-f225-4aed-9b10-a57709ad6259")
+			(uuid "e9c538ba-f225-4aed-9b10-a57709ad625a")
 		)
 		(instances
 			(project "straingauge"
@@ -25599,6 +25875,76 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "838dd46f-c99a-4a30-8564-d6025edcb24c")
+		(property "Reference" "C60"
+			(at 181.61 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 181.61 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 178.7652 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206X106M250NT_C93059.pdf"
+			(at 177.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1206X106M250NT"
+			(at 177.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6873a43-58eb-49c9-8da8-e7ee45bfb623")
+		)
+		(pin "2"
+			(uuid "7568a651-1823-4121-bcc5-049c3aa38d8a")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -27173,7 +27519,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9c538ba-f225-4aed-9b10-a57709ad6259")
+			(uuid "e9c538ba-f225-4aed-9b10-a57709ad625b")
 		)
 		(instances
 			(project "straingauge"
@@ -30448,6 +30794,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 170.18 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e3d856-585a-4a7c-9c14-1da63e75502c")
+		(property "Reference" "C59"
+			(at 173.99 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 173.99 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 171.1452 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206X106M250NT_C93059.pdf"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1206X106M250NT"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b5610ab-28c0-40c8-a611-945db573d930")
+		)
+		(pin "2"
+			(uuid "70956db4-0ee9-4803-9b8b-e1a5f0dcf7b6")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 50.8 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32762,7 +33178,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9c538ba-f225-4aed-9b10-a57709ad6259")
+			(uuid "e9c538ba-f225-4aed-9b10-a57709ad625c")
 		)
 		(instances
 			(project "straingauge"
@@ -32979,7 +33395,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3d8fb59-76a1-4d9a-bb79-c1728ae52e98")
 		(property "Reference" "#PWR018"
 			(at 198.12 106.68 0)
@@ -33166,6 +33581,75 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d559f0c4-200b-4ac8-93ac-b7f82561f788")
+		(property "Reference" "C61"
+			(at 104.648 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 100.33 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 105.1052 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206X106M250NT_C93059.pdf"
+			(at 104.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1206X106M250NT"
+			(at 104.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d01ed67-ded8-46fc-8413-c065f683d4ef")
+		)
+		(pin "2"
+			(uuid "b2034728-6a93-4644-9164-4f32e5fb9767")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -34916,7 +35400,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d1f8dd9-a00b-48c5-9c96-32a6b9210ce1")
+			(uuid "3d1f8dd9-a00b-48c5-9c96-32a6b9210ce2")
 		)
 		(instances
 			(project "straingauge"
