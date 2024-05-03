@@ -1112,22 +1112,22 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
+		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1152,7 +1152,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1187,31 +1187,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x01_Pin_1_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 0.8636 0)
@@ -1222,40 +1198,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -1269,19 +1211,8 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1291,60 +1222,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9252,12 +9129,6 @@
 		(uuid "36cf91db-8933-494b-8fb8-d37ed124b14c")
 	)
 	(junction
-		(at 292.1 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "382df22a-a572-42ea-a81e-4026de0be11c")
-	)
-	(junction
 		(at 111.76 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9576,12 +9447,6 @@
 		(uuid "8b8a0f20-2484-4f0f-91ba-95b35e6bf001")
 	)
 	(junction
-		(at 297.18 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cf488b3-8bcf-4a59-8327-cd3924486e52")
-	)
-	(junction
 		(at 149.86 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9720,6 +9585,12 @@
 		(uuid "c815c71a-b493-4c8d-80fb-a3db460f15a6")
 	)
 	(junction
+		(at 252.73 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9fde01a-20a3-46bb-92b4-86ebaf8cbb38")
+	)
+	(junction
 		(at 111.76 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9742,18 +9613,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0c1f800-47a3-47bb-8772-e7fdee0a34d6")
-	)
-	(junction
-		(at 472.44 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d15a52f1-f67f-466a-aee3-e81af7168b38")
-	)
-	(junction
-		(at 168.91 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3cb4e3e-cdf7-4445-ba64-bb05c3522745")
 	)
 	(junction
 		(at 356.87 201.93)
@@ -9808,12 +9667,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3c935ad-7090-40a6-872e-0cc3e6cf8a4b")
-	)
-	(junction
-		(at 474.98 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e420e139-37c9-4274-85f1-332a5edefe0a")
 	)
 	(junction
 		(at 283.21 232.41)
@@ -10318,16 +10171,6 @@
 			(type default)
 		)
 		(uuid "2003f664-600a-4263-a4c1-d9a6d116b085")
-	)
-	(wire
-		(pts
-			(xy 472.44 67.31) (xy 472.44 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21881a2b-de26-465a-aa08-3a109109d282")
 	)
 	(wire
 		(pts
@@ -11091,6 +10934,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 86.36) (xy 260.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f09d6d9-d0ac-4053-b520-acb9b1b055e5")
+	)
+	(wire
+		(pts
 			(xy 306.07 184.15) (xy 312.42 184.15)
 		)
 		(stroke
@@ -11338,16 +11191,6 @@
 			(type default)
 		)
 		(uuid "5f1bff98-ca73-4492-a6bb-17b519c6e4c3")
-	)
-	(wire
-		(pts
-			(xy 472.44 74.93) (xy 474.98 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7ce5f1-9088-4b9f-a842-d45c184c4713")
 	)
 	(wire
 		(pts
@@ -11881,16 +11724,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 140.97) (xy 172.72 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83068451-86e3-45b0-8e41-7f1329e38d5a")
-	)
-	(wire
-		(pts
 			(xy 356.87 190.5) (xy 356.87 185.42)
 		)
 		(stroke
@@ -12008,16 +11841,6 @@
 			(type default)
 		)
 		(uuid "8735a378-3aed-42c4-a589-b9771002903e")
-	)
-	(wire
-		(pts
-			(xy 472.44 72.39) (xy 474.98 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "876bfac7-58fd-4665-be1b-09b0c7ea1277")
 	)
 	(wire
 		(pts
@@ -12168,6 +11991,16 @@
 			(type default)
 		)
 		(uuid "8fe08197-c109-4feb-b45b-e452489622c2")
+	)
+	(wire
+		(pts
+			(xy 252.73 134.62) (xy 259.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9039439e-dd89-4390-8beb-60c5694dfca2")
 	)
 	(wire
 		(pts
@@ -12491,16 +12324,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 71.12) (xy 295.91 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27747d0-6710-4fc3-8168-8f4cff3fec6e")
-	)
-	(wire
-		(pts
 			(xy 149.86 49.53) (xy 149.86 50.8)
 		)
 		(stroke
@@ -12661,16 +12484,6 @@
 	)
 	(wire
 		(pts
-			(xy 474.98 67.31) (xy 474.98 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa7b9011-3871-4094-b50f-690cc5310b7e")
-	)
-	(wire
-		(pts
 			(xy 313.69 200.66) (xy 313.69 201.93)
 		)
 		(stroke
@@ -12771,7 +12584,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 60.96) (xy 300.99 60.96)
+			(xy 289.56 60.96) (xy 300.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -13081,7 +12894,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 71.12) (xy 292.1 71.12)
+			(xy 289.56 71.12) (xy 295.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -13231,7 +13044,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 140.97) (xy 168.91 140.97)
+			(xy 160.02 140.97) (xy 172.72 140.97)
 		)
 		(stroke
 			(width 0)
@@ -13488,16 +13301,6 @@
 			(type default)
 		)
 		(uuid "df6577fa-ee51-456e-b4a1-d2198eb309d6")
-	)
-	(wire
-		(pts
-			(xy 472.44 72.39) (xy 472.44 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e05706e7-2f13-4971-b2a0-9e6344820443")
 	)
 	(wire
 		(pts
@@ -14031,16 +13834,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 60.96) (xy 297.18 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd06541d-5580-421a-89ed-565bd265daa8")
-	)
-	(wire
-		(pts
 			(xy 66.04 140.97) (xy 68.58 140.97)
 		)
 		(stroke
@@ -14379,6 +14172,7 @@
 	(hierarchical_label "*CS"
 		(shape bidirectional)
 		(at 289.56 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14450,6 +14244,7 @@
 	(hierarchical_label "REFIN1(-)"
 		(shape input)
 		(at 331.47 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14461,6 +14256,7 @@
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 355.6 30.48 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14508,6 +14304,7 @@
 	(hierarchical_label "REFIN1(+)"
 		(shape input)
 		(at 255.27 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14615,6 +14412,7 @@
 	(hierarchical_label "*CS"
 		(shape input)
 		(at 363.22 30.48 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14662,6 +14460,7 @@
 	(hierarchical_label "DOUT/*RDY"
 		(shape input)
 		(at 295.91 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14673,6 +14472,7 @@
 	(hierarchical_label "DOUT/*RDY"
 		(shape output)
 		(at 360.68 30.48 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14780,6 +14580,7 @@
 	(hierarchical_label "DIN"
 		(shape input)
 		(at 300.99 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14851,6 +14652,7 @@
 	(hierarchical_label "REFIN1(-)"
 		(shape input)
 		(at 255.27 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14862,6 +14664,7 @@
 	(hierarchical_label "DIN"
 		(shape input)
 		(at 358.14 30.48 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14873,6 +14676,7 @@
 	(hierarchical_label "REFIN1(+)"
 		(shape input)
 		(at 331.47 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15532,7 +15336,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0a14feeb-0353-4e2e-97f8-ea85092885fe")
-		(property "Reference" "TP12"
+		(property "Reference" "FEF"
 			(at 331.216 69.596 90)
 			(effects
 				(font
@@ -15582,7 +15386,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP12")
+					(reference "FEF")
 					(unit 1)
 				)
 			)
@@ -15801,7 +15605,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0f1312d2-02a0-4919-b99f-045eb7a01e87")
-		(property "Reference" "TP13"
+		(property "Reference" "FBX3"
 			(at 121.92 164.3379 0)
 			(effects
 				(font
@@ -15853,7 +15657,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP13")
+					(reference "FBX3")
 					(unit 1)
 				)
 			)
@@ -16347,7 +16151,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "14e322af-83a4-4c1e-a75c-e423975c5f7f")
 		(property "Reference" "J3"
 			(at 337.82 161.2899 0)
@@ -17881,6 +17685,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 298.45 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2162ff33-0b5f-43ac-b578-a67afd09fe9b")
+		(property "Reference" "#PWR061"
+			(at 298.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 294.386 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 298.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25888ac7-9261-4ccf-903b-8b21576907d2")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 293.37 21.59 270)
 		(unit 1)
@@ -18073,71 +17942,6 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "customPower:+7v")
-		(at 474.98 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "24312165-1d4e-4cc9-8e7d-2bb9a6a61ccc")
-		(property "Reference" "#PWR096"
-			(at 478.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+7V"
-			(at 478.79 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 474.98 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 474.98 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 474.98 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "+7v"
-			(uuid "bff8fb0a-19dd-44d7-a418-c81602420a8b")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -18421,7 +18225,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "2a0c6f0c-359f-4a77-9a31-1919d616eeaa")
-		(property "Reference" "TP1"
+		(property "Reference" "-3v"
 			(at 243.84 131.318 0)
 			(effects
 				(font
@@ -18473,7 +18277,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP1")
+					(reference "-3v")
 					(unit 1)
 				)
 			)
@@ -18555,7 +18359,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2c3aca7c-a86b-4a07-ab3e-656180b7bfbc")
-		(property "Reference" "TP14"
+		(property "Reference" "FBX7"
 			(at 109.22 90.6779 0)
 			(effects
 				(font
@@ -18607,7 +18411,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP14")
+					(reference "FBX7")
 					(unit 1)
 				)
 			)
@@ -18828,7 +18632,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "31709e79-8307-4719-92ad-9660ffeb9982")
-		(property "Reference" "TP21"
+		(property "Reference" "5v"
 			(at 72.39 20.8279 0)
 			(effects
 				(font
@@ -18880,7 +18684,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP21")
+					(reference "5v")
 					(unit 1)
 				)
 			)
@@ -19299,7 +19103,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "360e9f6d-7664-4559-a5d8-fd7f7dc01dfd")
-		(property "Reference" "TP4"
+		(property "Reference" "DIN"
 			(at 300.99 59.436 0)
 			(effects
 				(font
@@ -19350,7 +19154,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP4")
+					(reference "DIN")
 					(unit 1)
 				)
 			)
@@ -20312,7 +20116,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "46cb7d4c-06fe-4cbc-92fa-c8731c303983")
-		(property "Reference" "TP9"
+		(property "Reference" "33v"
 			(at 156.21 20.8279 0)
 			(effects
 				(font
@@ -20364,7 +20168,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP9")
+					(reference "33v")
 					(unit 1)
 				)
 			)
@@ -20515,7 +20319,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "4b54dcb5-3be3-4d71-91d7-911612db1675")
-		(property "Reference" "TP23"
+		(property "Reference" "SYNC"
 			(at 330.962 82.55 90)
 			(effects
 				(font
@@ -20565,7 +20369,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP23")
+					(reference "SYNC")
 					(unit 1)
 				)
 			)
@@ -21190,72 +20994,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 297.18 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "52fac1e7-df2c-4e47-ab81-cfdb53930468")
-		(property "Reference" "TP3"
-			(at 293.878 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 299.72 58.9279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 302.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 302.26 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35124275-1ded-4e6c-a875-d54661f66f73")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 189.23 35.56 0)
 		(unit 1)
@@ -21665,7 +21403,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "5b8323d0-2b5f-4a3e-9c46-1caa5b9c1b72")
-		(property "Reference" "TP10"
+		(property "Reference" "2.95v"
 			(at 256.032 102.108 0)
 			(effects
 				(font
@@ -21717,7 +21455,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP10")
+					(reference "2.95v")
 					(unit 1)
 				)
 			)
@@ -22393,6 +22131,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 265.43 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "66ab4e6f-d0c6-48ef-9a07-6a890aa31d04")
+		(property "Reference" "J4"
+			(at 264.795 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 264.795 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 265.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 265.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "721276d7-063d-4355-8d42-ef008d2beb8e")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 351.79 128.27 0)
 		(unit 1)
@@ -22470,7 +22273,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "68f12526-a51b-4a62-85e7-1ef352514464")
-		(property "Reference" "TP11"
+		(property "Reference" ".33v"
 			(at 256.032 116.078 0)
 			(effects
 				(font
@@ -22522,7 +22325,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP11")
+					(reference ".33v")
 					(unit 1)
 				)
 			)
@@ -27266,137 +27069,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a1c90268-5e36-4116-bab5-cf7f9e520066")
-		(property "Reference" "TP8"
-			(at 170.18 137.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 171.45 138.9379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 173.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35124275-1ded-4e6c-a875-d54661f66f77")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "customPower:-3v")
-		(at 472.44 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "a27e08a0-f350-492c-8cbc-e79ce156b884")
-		(property "Reference" "#PWR094"
-			(at 472.44 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-3v"
-			(at 471.424 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 472.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 472.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 472.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "4a6ea5e9-84b2-4608-bff8-dd5c20518f3f")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VP")
 		(at 111.76 223.52 0)
 		(unit 1)
@@ -28922,7 +28594,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b3b86284-3e32-4c4a-be77-161d98e9800f")
-		(property "Reference" "TP16"
+		(property "Reference" "7.5v"
 			(at 109.22 69.0879 0)
 			(effects
 				(font
@@ -28974,7 +28646,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP16")
+					(reference "7.5v")
 					(unit 1)
 				)
 			)
@@ -29187,7 +28859,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b548245d-5fbe-4699-8a42-2deeff9a8cb9")
-		(property "Reference" "TP2"
+		(property "Reference" "7v"
 			(at 245.872 83.566 0)
 			(effects
 				(font
@@ -29239,7 +28911,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP2")
+					(reference "7v")
 					(unit 1)
 				)
 			)
@@ -30043,7 +29715,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bbdf66d5-79bb-4cfa-a9a3-1f8a5ec63293")
-		(property "Reference" "TP6"
+		(property "Reference" "DOUT"
 			(at 295.656 72.898 0)
 			(effects
 				(font
@@ -30094,7 +29766,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP6")
+					(reference "DOUT")
 					(unit 1)
 				)
 			)
@@ -30243,7 +29915,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "bce4ee37-bdff-4dfe-9417-ef17168a9260")
-		(property "Reference" "TP24"
+		(property "Reference" "PSW"
 			(at 331.216 78.74 90)
 			(effects
 				(font
@@ -30293,7 +29965,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP24")
+					(reference "PSW")
 					(unit 1)
 				)
 			)
@@ -30875,7 +30547,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "c342a475-ac0c-474f-ab8e-1d22cf420251")
-		(property "Reference" "TP29"
+		(property "Reference" "gnd"
 			(at 22.352 43.688 90)
 			(effects
 				(font
@@ -30925,7 +30597,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP29")
+					(reference "gnd")
 					(unit 1)
 				)
 			)
@@ -31280,7 +30952,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cb8ed839-a68a-4ce2-ab58-7113798a0df1")
-		(property "Reference" "TP15"
+		(property "Reference" "-3.8v"
 			(at 128.27 136.3979 0)
 			(effects
 				(font
@@ -31332,7 +31004,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP15")
+					(reference "-3.8v")
 					(unit 1)
 				)
 			)
@@ -31825,7 +31497,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "cd345a23-983d-4766-b5f4-c6214471c52b")
-		(property "Reference" "TP32"
+		(property "Reference" "CS"
 			(at 365.252 29.718 0)
 			(effects
 				(font
@@ -31876,7 +31548,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP32")
+					(reference "CS")
 					(unit 1)
 				)
 			)
@@ -34181,7 +33853,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "edbbc395-e39c-48ce-8149-85262662c9b2")
-		(property "Reference" "TP33"
+		(property "Reference" "SCLK"
 			(at 296.418 65.532 90)
 			(effects
 				(font
@@ -34232,7 +33904,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP33")
+					(reference "SCLK")
 					(unit 1)
 				)
 			)
@@ -34313,7 +33985,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f2017463-b2be-40c5-ae5c-5429c7e099fb")
-		(property "Reference" "TP28"
+		(property "Reference" "gnd"
 			(at 28.448 43.942 90)
 			(effects
 				(font
@@ -34363,7 +34035,7 @@
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP28")
+					(reference "gnd")
 					(unit 1)
 				)
 			)
@@ -34717,7 +34389,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f621fbb1-ad9e-4fdf-aa79-443435ebd802")
 		(property "Reference" "J2"
 			(at 402.59 168.91 0)
@@ -34765,108 +34437,33 @@
 			)
 		)
 		(pin "8"
-			(uuid "e580cb10-eadd-49c8-8ec1-73c6676f57af")
+			(uuid "e580cb10-eadd-49c8-8ec1-73c6676f57b0")
 		)
 		(pin "6"
-			(uuid "e9a81f4d-3278-449c-b312-86d3941dad3d")
+			(uuid "e9a81f4d-3278-449c-b312-86d3941dad3e")
 		)
 		(pin "7"
-			(uuid "2f09372e-79ed-44a5-9631-bd5202996706")
+			(uuid "2f09372e-79ed-44a5-9631-bd5202996707")
 		)
 		(pin "2"
-			(uuid "b6cb3584-1315-454e-b9ea-d715a7325969")
+			(uuid "b6cb3584-1315-454e-b9ea-d715a732596a")
 		)
 		(pin "3"
-			(uuid "701b83b9-dbf1-431f-8dbf-bc66c52dc89e")
+			(uuid "701b83b9-dbf1-431f-8dbf-bc66c52dc89f")
 		)
 		(pin "1"
-			(uuid "0791a4c2-26d0-4ed3-ad1a-7efcfaac141e")
+			(uuid "0791a4c2-26d0-4ed3-ad1a-7efcfaac141f")
 		)
 		(pin "5"
-			(uuid "624b3906-94d2-4cb8-9432-6cb98694e0c7")
+			(uuid "624b3906-94d2-4cb8-9432-6cb98694e0c8")
 		)
 		(pin "4"
-			(uuid "57879148-bdd5-4fa3-85f5-972c8c144bc2")
+			(uuid "57879148-bdd5-4fa3-85f5-972c8c144bc3")
 		)
 		(instances
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 480.06 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f71ff24b-06ff-453f-8d06-2ea490e7ba2e")
-		(property "Reference" "J4"
-			(at 479.298 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 469.138 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 480.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 480.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 480.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0339f4ef-655a-4e56-9a66-d6cc8a1b7be5")
-		)
-		(pin "1"
-			(uuid "0b4044c9-2acd-43ec-802c-a72be0225080")
-		)
-		(pin "4"
-			(uuid "dbda2267-8a98-4ee0-b8ee-551ec42abf0c")
-		)
-		(pin "2"
-			(uuid "1491d5c6-82e4-4f5d-8ff3-1e9c9d44ef31")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -35724,6 +35321,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 264.16 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ff30b9da-98a3-413a-a518-3077f2d561cb")
+		(property "Reference" "J5"
+			(at 263.525 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 263.525 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 264.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 264.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "721276d7-063d-4355-8d42-ef008d2beb8f")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 208.28 160.02 180)
 		(unit 1)
@@ -35854,72 +35516,6 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 292.1 71.12 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "fff84cdb-0e31-438d-841a-6eb8ad51b304")
-		(property "Reference" "TP5"
-			(at 291.592 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 294.64 75.6919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 287.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 287.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 292.1 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35124275-1ded-4e6c-a875-d54661f66f7f")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
