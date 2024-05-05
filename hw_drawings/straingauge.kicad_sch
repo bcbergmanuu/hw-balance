@@ -2363,6 +2363,152 @@
 				)
 			)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3314,377 +3460,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "MurataNFZ18SM121SN10D:NFZ18SM121SN10D"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 6.985 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "NFZ18SM121SN10D"
-				(at 6.985 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IND_NFZ18SM121SN10D_MUR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "NFZ18SM121SN10D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NFZ18SM121SN10D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "IND_NFZ18SM121SN10D_MUR IND_NFZ18SM121SN10D_MUR-M IND_NFZ18SM121SN10D_MUR-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NFZ18SM121SN10D_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 12.7 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 1.27)
-					(mid 3.81 2.5345)
-					(end 2.54 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 1.27)
-					(mid 6.35 2.5345)
-					(end 5.08 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 1.27)
-					(mid 8.89 2.5345)
-					(end 7.62 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 1.27)
-					(mid 11.43 2.5345)
-					(end 10.16 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NFZ18SM121SN10D_1_2"
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5345 3.81)
-					(end -1.27 2.54)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5345 6.35)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5345 8.89)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 12.7)
-					(mid -2.5345 11.43)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7044,377 +6819,6 @@
 				)
 			)
 		)
-		(symbol "ferrite_bead:742792040"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 6.985 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "742792040"
-				(at 6.985 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IND_742792040_WRE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "742792040"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "742792040"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "IND_742792040_WRE IND_742792040_WRE-M IND_742792040_WRE-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "742792040_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 12.7 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 1.27)
-					(mid 3.81 2.5344)
-					(end 2.54 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 1.27)
-					(mid 6.35 2.5344)
-					(end 5.08 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 1.27)
-					(mid 8.89 2.5344)
-					(end 7.62 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 1.27)
-					(mid 11.43 2.5344)
-					(end 10.16 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "742792040_1_2"
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5344 3.81)
-					(end -1.27 2.54)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5344 6.35)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5344 8.89)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 12.7)
-					(mid -2.5344 11.43)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "lt8333:LT8333RDD-PBF"
 			(pin_names
 				(offset 0.254)
@@ -9055,6 +8459,12 @@
 		(uuid "2da02484-3cb4-4a6f-9efd-03b4683ef77f")
 	)
 	(junction
+		(at 144.78 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e7829b7-8af2-484b-bc40-84710ba05fe5")
+	)
+	(junction
 		(at 50.8 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9065,6 +8475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fe10d86-87a3-47f4-b5d0-d6c8607c3c2a")
+	)
+	(junction
+		(at 160.02 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31e47123-a19e-4737-880d-33afe7a6f62f")
 	)
 	(junction
 		(at 374.65 153.67)
@@ -9097,12 +8513,6 @@
 		(uuid "36cf91db-8933-494b-8fb8-d37ed124b14c")
 	)
 	(junction
-		(at 160.02 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3981957d-eee3-42e7-96eb-363475882806")
-	)
-	(junction
 		(at 351.79 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9121,10 +8531,10 @@
 		(uuid "3fcdd2f8-9dea-4409-b775-7c8233b0de30")
 	)
 	(junction
-		(at 160.02 140.97)
+		(at 144.78 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43f199b3-8cd3-405f-a432-c61b43e8a673")
+		(uuid "3fd0cbca-ad47-48d3-a50f-c01b7af0080f")
 	)
 	(junction
 		(at 288.29 185.42)
@@ -9173,12 +8583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b1feee4-1233-41a5-8b31-4ccf496e63c1")
-	)
-	(junction
-		(at 144.78 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b6ef535-6c59-46f6-9b96-16ca2b12a666")
 	)
 	(junction
 		(at 374.65 184.15)
@@ -9365,12 +8769,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f7f3984-c25e-4b7a-bbee-009db2e31b69")
-	)
-	(junction
-		(at 144.78 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ff3ab78-e8aa-4f2b-ba34-57fc3e13ece0")
 	)
 	(junction
 		(at 68.58 140.97)
@@ -9587,6 +8985,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0d8eb72-e737-47a4-bfc4-8baae670e40b")
+	)
+	(junction
+		(at 160.02 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e14ab1ed-a4af-47de-8330-ec192d053d09")
 	)
 	(junction
 		(at 176.53 95.25)
@@ -10102,6 +9506,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 73.66) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1954c33b-7e3e-4e8e-8006-032b8e344b4a")
+	)
+	(wire
+		(pts
 			(xy 99.06 104.14) (xy 99.06 116.84)
 		)
 		(stroke
@@ -10119,16 +9533,6 @@
 			(type default)
 		)
 		(uuid "1a8b539d-cdcf-457d-bbc0-fdf9c64d31b4")
-	)
-	(wire
-		(pts
-			(xy 46.99 25.4) (xy 50.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d039894-75e0-44dd-8731-f97d4b3eaa44")
 	)
 	(wire
 		(pts
@@ -10532,7 +9936,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 25.4) (xy 31.75 25.4)
+			(xy 25.4 25.4) (xy 35.56 25.4)
 		)
 		(stroke
 			(width 0)
@@ -11452,6 +10856,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 140.97) (xy 160.02 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc115aa-ede3-4ef5-b8e8-406de540d981")
+	)
+	(wire
+		(pts
 			(xy 347.98 154.94) (xy 351.79 154.94)
 		)
 		(stroke
@@ -12272,6 +11686,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 25.4) (xy 50.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad97bc94-a6c2-4cbd-81c4-0dce637b9a24")
+	)
+	(wire
+		(pts
 			(xy 219.71 134.62) (xy 219.71 138.43)
 		)
 		(stroke
@@ -12349,6 +11773,16 @@
 			(type default)
 		)
 		(uuid "b2b84087-18d4-4f22-8b41-7021e542ba6f")
+	)
+	(wire
+		(pts
+			(xy 144.78 140.97) (xy 148.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31e6f91-392c-4f40-ba78-6b3f4a928982")
 	)
 	(wire
 		(pts
@@ -13049,6 +12483,16 @@
 			(type default)
 		)
 		(uuid "e19b0c5e-e91a-43bf-b89f-25434f091221")
+	)
+	(wire
+		(pts
+			(xy 156.21 73.66) (xy 160.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e9f5c3-df32-4079-80b5-c0507f695fe0")
 	)
 	(wire
 		(pts
@@ -14294,6 +13738,7 @@
 	(hierarchical_label "AIN3_C"
 		(shape input)
 		(at 326.39 185.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15271,6 +14716,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 152.4 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0429d014-1849-4ab9-8200-bddcc56d2396")
+		(property "Reference" "FB3"
+			(at 152.3492 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 1A"
+			(at 152.3492 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 152.4 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PB1608-121/1A0 "
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2983009"
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e4ff606-c75e-451a-b4cd-e454919c3de2")
+		)
+		(pin "1"
+			(uuid "6f477873-ae9f-4b3f-914c-c655e495b575")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 223.52 0)
 		(unit 1)
@@ -15549,6 +15071,83 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 39.37 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09a2880a-33f7-401f-911f-7a08ae482dc7")
+		(property "Reference" "FB1"
+			(at 39.3192 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500 2A"
+			(at 39.3192 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 39.37 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FBMH3216HM501NTV"
+			(at 39.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C515371"
+			(at 39.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9446edd-ce66-404e-936e-9241daec15e0")
+		)
+		(pin "1"
+			(uuid "16bcdb4c-e305-43e9-b33c-647fd11b89e1")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -17853,94 +17452,6 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MurataNFZ18SM121SN10D:NFZ18SM121SN10D")
-		(at 144.78 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f000a70-6ad4-41f2-a5ec-58118abf2967")
-		(property "Reference" "L3"
-			(at 152.4 66.04 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NFZ18SM121SN10D"
-			(at 152.4 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "NFZ18SM121SN10D:IND_NFZ18SM121SN10D_MUR"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NFZ18SM121SN10D"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C338244"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f17de2af-d778-493e-b677-5b4d593c73e8")
-		)
-		(pin "2"
-			(uuid "e9ad9a77-51d7-4823-8fb2-b8978cd10b07")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -21607,94 +21118,6 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "SYNC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ferrite_bead:742792040")
-		(at 31.75 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cc12b11-66bc-4842-b686-aa23bb4c569c")
-		(property "Reference" "L2"
-			(at 39.37 17.78 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "742792040"
-			(at 39.37 20.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "IND_742792040_WRE"
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "742792040"
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" ""
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2661857"
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee9d1345-460a-4ebe-9cb3-050883953bff")
-		)
-		(pin "1"
-			(uuid "69c7b6b6-9a26-4d3f-9821-ff429554e777")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -33784,6 +33207,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 152.4 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6665424-3813-42d9-925a-d42dd106166d")
+		(property "Reference" "FB2"
+			(at 152.3492 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120 1A"
+			(at 152.3492 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 152.4 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PB1608-121/1A0 "
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2983009"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e4ff606-c75e-451a-b4cd-e454919c3de2")
+		)
+		(pin "1"
+			(uuid "6f477873-ae9f-4b3f-914c-c655e495b575")
+		)
+		(instances
+			(project "straingauge"
+				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 351.79 219.71 0)
 		(unit 1)
@@ -36806,94 +36306,6 @@
 			(project "straingauge"
 				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MurataNFZ18SM121SN10D:NFZ18SM121SN10D")
-		(at 144.78 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e31ba979-c81e-4792-8d53-306a6f134fd8")
-		(property "Reference" "L4"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "NFZ18SM121SN10D"
-			(at 152.4 135.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "NFZ18SM121SN10D:IND_NFZ18SM121SN10D_MUR"
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "NFZ18SM121SN10D"
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" ""
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C338244"
-			(at 144.78 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "152cf031-659d-47c0-8b92-64d3f12c3f99")
-		)
-		(pin "2"
-			(uuid "0512b136-2c5a-4708-ba86-2b0c063046eb")
-		)
-		(instances
-			(project "straingauge"
-				(path "/64bf49bb-2f35-4a03-9e7d-ede07f858d78"
-					(reference "L4")
 					(unit 1)
 				)
 			)
