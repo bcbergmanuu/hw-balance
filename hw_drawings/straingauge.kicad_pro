@@ -76,7 +76,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -88,7 +88,7 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
@@ -126,13 +126,13 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -234,7 +234,18 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1676400|2387600|c0ab3631-1c32-4f5e-ae1b-ccf9d49facf9|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|1905000|1397000|b5f34783-1803-4b24-bb24-f30454a4713e|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|1943100|279400|8802a662-057d-49e4-a5f4-02e5a76fc19d|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2717800|469900|19e5ae5e-6f7f-4e9c-a77d-5e1d53b6e3ca|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|2959100|457200|19e5ae5e-6f7f-4e9c-a77d-5e1d53b6e3ca|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|317500|254000|4cc12b11-66bc-4842-b686-aa23bb4c569c|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|3657600|393700|c0ab3631-1c32-4f5e-ae1b-ccf9d49facf9|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|3873500|889000|038de22d-b374-42ec-ac50-85bcf7db0a78|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|3924300|1320800|038de22d-b374-42ec-ac50-85bcf7db0a78|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|419100|2260600|63e675e1-c7e7-4270-8fce-580043083046|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -456,7 +467,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1651,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -505,11 +516,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -558,13 +569,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -582,6 +593,12 @@
           "group_by": false,
           "label": "Name",
           "name": "Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         }
       ],
@@ -619,6 +636,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
