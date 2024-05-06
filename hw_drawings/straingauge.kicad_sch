@@ -14741,7 +14741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 152.4 142.748 90)
 			(effects
 				(font
@@ -14759,7 +14759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PB1608-121/1A0 "
+		(property "Description" "MLB2012F-101T"
 			(at 152.4 140.97 0)
 			(effects
 				(font
@@ -14768,7 +14768,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2983009"
+		(property "LCSC" "C2844587"
 			(at 152.4 140.97 0)
 			(effects
 				(font
@@ -15129,7 +15129,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C515371"
+		(property "LCSC" "C2844587"
 			(at 39.37 25.4 0)
 			(effects
 				(font
@@ -33214,10 +33214,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6665424-3813-42d9-925a-d42dd106166d")
 		(property "Reference" "FB2"
-			(at 152.3492 66.04 90)
+			(at 149.86 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33232,7 +33231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 152.4 75.438 90)
 			(effects
 				(font
@@ -33250,7 +33249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PB1608-121/1A0 "
+		(property "Description" "MLB2012F-101T"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -33259,7 +33258,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2983009"
+		(property "LCSC" "C2844587"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -33269,10 +33268,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7e4ff606-c75e-451a-b4cd-e454919c3de2")
+			(uuid "7e4ff606-c75e-451a-b4cd-e454919c3de3")
 		)
 		(pin "1"
-			(uuid "6f477873-ae9f-4b3f-914c-c655e495b575")
+			(uuid "6f477873-ae9f-4b3f-914c-c655e495b576")
 		)
 		(instances
 			(project "straingauge"
