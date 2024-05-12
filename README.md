@@ -14,9 +14,9 @@ Balanceboard design
 
 <img src="https://raw.githubusercontent.com/bcbergmanuu/hw-balance/master/assets/IMG_20240320_190419101_HDR.jpg" width="300"> <img src="https://raw.githubusercontent.com/bcbergmanuu/hw-balance/master/assets/IMG_20240320_190425005.jpg" width="300">
 
-LTspice simulation input | LTSpice simulation result
+LTspice simulation LDO | Boost converters
 
-<img src="https://raw.githubusercontent.com/bcbergmanuu/hw-balance/master/assets/power-schematic.png" width="300"> <img src="https://raw.githubusercontent.com/bcbergmanuu/hw-balance/master/assets/voltage-reg.png" width="300">
+<img src="https://raw.githubusercontent.com/bcbergmanuu/hw-balance/master/assets/lt30xx_ldo.png" width="300"> <img src="https://raw.githubusercontent.com/bcbergmanuu/hw-balance/master/assets/lt8330.png" width="300">
 
 Schematic Kicad | 3d-view of bcp
 
