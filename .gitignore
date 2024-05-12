@@ -1,0 +1,7 @@
+/hw_drawings/straingauge-backups
+/hw_drawings/production
+/hw_drawings/*.lck
+/hw_drawings/*auto_saved_files*
+/hw_drawings/_autosave-straingauge.kicad_pcb
+/hw_drawings/straingauge.kicad_sch-bak
+
