@@ -21,3 +21,7 @@ LTspice simulation LDO | Boost converters
 Schematic Kicad | 3d-view of bcp
 
 <img src="https://raw.githubusercontent.com/bcbergmanuu/hw-balance/master/hw_drawings/schematic.png" width="300"> <img src="https://raw.githubusercontent.com/bcbergmanuu/hw-balance/master/hw_drawings/straingauge.png" width="300">
+
+Errata:
+R19 48K, should be 390
+R3 should be removed
