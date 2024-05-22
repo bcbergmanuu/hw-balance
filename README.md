@@ -6,7 +6,7 @@ Design Goals
   - Ultralow RMS Noise ldo (0.8µVRMS)
   - 10v Excitation voltage
   - Precision crystal clock fir filtering (20ppm)
-  - Class c3 Loadcells type (LA250-D-100kg)
+  - Class c3 Loadcells type [LA250-D-100kg](https://allscaleseurope.com/content/uploads/2018/01/LA250-D-single-point-load-cell.pdf)
   - 8 bit decoupled auxiliary pc input
   - 24 bit ADC (ad7124)  
 
